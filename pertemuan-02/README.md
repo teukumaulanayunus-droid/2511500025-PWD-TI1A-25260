@@ -1,2 +1,6 @@
 # 2511500025-PWD-TI1A-25260
 Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman Web Dasar Kelompok TI1A Tahun Ajaran 2025/2026 Semester Gasal
+NIM : 2511500025
+Nama : Teuku Maulana Yunus
+
+Hari ini, rabu.01.oktober.2025 saya mempelajari:
