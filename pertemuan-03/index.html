@@ -59,35 +59,73 @@
 </head>
 
 <head>
-    <meta charset="UTF-8" <meta name="viewport" content="width=device-width, initial-scale1.0" <title>Kontak</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
     <style>
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: navy;
-            color: #e6e6e6;
-        }
-
         #contact {
-            padding: 80px 16px;
-            background: -moz-linear-gradient(145deg, #003366, #e6e6e6);
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(red, green, blue, alpha);
+            background-color: aqua;
+            border-radius: 15px;
+            padding: 25px;
+            max-width: 750px;
+            margin: 25px auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
         }
+    </style>
+</head>
 
-        .contact-container {
-            max-width: 900px;
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-        }
+<body>
+    <header>
+        <h1>Ini Header</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="about">Tentang</a></li>
+                <li><a href="contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Selamat Datang</h2>
+            <p>Ini contoh paragraf HTML.</p>
+        </section>
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p><strong>NIM:</strong> 2511500025</P>
+            <P><strong>Nama Lengkap:</strong> Teuku Maulana Yunus &#128526;</P>
+            <P><strong>Tempat Lahir: </strong>Cilegon </P>
+            <P><strong>Tanggal Lahir:</strong> 27,Agustus 2005</P>
+            <P><strong>Hobby:</strong>Berbisnis & Berolahraga &#127926;</P>
+            <P><strong>Pasangan:</strong> Alvina Syafitri &hearts;</P>
+            <P><strong>Pekerjaan:</strong>Mahasiswa & Berbisnis</P>
+            <P><strong>Nama Orang tua</strong> Elly Novida & Muhammad Yunus</P>
+            <P><strong>Nama kakak:</strong>N Cut Yayang Tari</p>
+        </section>
+        <section id="contact" <h2>Kontak Kami</h2>
+            <form action="" method="GET">
+                <input type="color">
+                <label for="txt Nama">Nama</label>
+                <input type="text" id="txt name" name="txt nama" placeholder="Masukan nama" required
+                    autocomplate="name">
 
+                <label for="txt email">Email:</label>
+                <input type="email" id="txt email" name="txt email" placeholder="Masukan email" required
+                    autocomplate="email">
 
+                <label for="txt pesan">Pesan</label>
+                <textarea id="txt pesan" name="txt pesan" rows="4" placeholder="Tulis pesan anda..."
+                    required></textarea>
 
-        <body><header><h1>Ini Header</h1><nav><ul><li><a href="#home">Beranda</a></li><li><a href="about">Tentang</a></li><li><a href="contact">Kontak</a></li></ul></nav></header><main><section id="home"><h2>Selamat Datang</h2><p>Ini contoh paragraf HTML.</p></section><section id="about"><h2>Tentang Kami</h2><p><strong>NIM:</strong>2511500025</P><P><strong>Nama Lengkap:</strong>Teuku Maulana Yunus &#128526;
-        </P><P><strong>Tempat Lahir: </strong>Cilegon </P><P><strong>Tanggal Lahir:</strong>27,
-        Agustus 2005</P><P><strong>Hobby:</strong>Berbisnis & Berolahraga &#127926;
-        </P><P><strong>Pasangan:</strong>Alvina Syafitri &hearts;
-        </P><P><strong>Pekerjaan:</strong>Mahasiswa & Berbisnis</P><P><strong>Nama Orang tua</strong>Elly Novida & Muhammad Yunus</P><P><strong>Nama kakak:</strong>N Cut Yayang Tari</p></section><section id="contact" <h2>Kontak Kami</h2><form action="" method="GET"><input type="color"><label for="txt Nama">Nama</label><input type="text" id="txt name" name="txt nama" placeholder="Masukan nama" required autocomplate="name"><label for="txt email">Email:</label><input type="email" id="txt email" name="txt email" placeholder="Masukan email" required autocomplate="email"><label for="txt pesan">Pesan</label><textarea id="txt pesan" name="txt pesan" rows="4" placeholder="Tulis pesan anda..."
-        required></textarea><button type="submit">Kirim</button><button type="reset">Batal</button></form></section></main><footer><p>&copy;
-        2025 Teuku Maulana Yunus [2511500025]</p></footer></body></html>
+                <button type="submit">Kirim</button>
+                <button type="reset">Batal</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Teuku Maulana Yunus [2511500025]</p>
+    </footer>
+</body>
+
+</html>
