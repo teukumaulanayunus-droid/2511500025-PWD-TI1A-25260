@@ -5,7 +5,11 @@ Nama : Teuku Maulana Yunus 1 <br><br>
 
 Hari ini, Rabu 08 Oktober 2025, saya belajar:
 <ol>
-<li>“copy-paste isi index.html (pertemuan-03) ke index.html (pertemuan-04)”,</li>
-<li>“ganti internal css ke eksternal css”.</li>
+<li>“copy-paste isi index.html (pertemuan-04) ke index.html (pertemuan-05)</li>
+<li>“tombol hamburger”,</li>
+<li>“class menu-toggle”,</li.>
+<li>“class menu-toggle mobile”,</li>
+<li>“styling nav mobile”,</li>
+
 
 </ol>
