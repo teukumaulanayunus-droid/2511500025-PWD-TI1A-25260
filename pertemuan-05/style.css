@@ -168,7 +168,7 @@ footer {
         top: 8px;
     }
 
-    header nav {
+    nav {
         display: none;
         flex-direction: column;
         background-color: #003366;
@@ -178,6 +178,13 @@ footer {
 
     nav.active {
         display: flex;
+    }
+
+    header {
+        padding: 16px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
     }
 
     header h1 {
