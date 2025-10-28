@@ -12,4 +12,8 @@ Hari ini, Rabu 08 Oktober 2025, saya belajar:
 <li>“styling nav mobile”,</li>
 <li>“styling nav menu mobile”,</li>
 <li>“membuat script.js”,</li>
+<li>Latihan Validasi Formulir Sebelum Submit</li>
+<li>Latihan Ganti Teks Tombol Saat Menu Aktif</li>
+<li>Latihan Ucapan Otomatis Saat Halaman Dimuat</li>
+<li>Latihan Hitung Jumlah Karakter Pesan</li>
 </ol>
