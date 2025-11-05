@@ -1,235 +1,341 @@
- * {
-     box-sizing: border-box;
- }
 
- body {
-     margin: 0;
-     font-family: arial, sans-serif;
-     background: #f5f5f5;
-     color: #333;
-     line-height: 1.5;
- }
+    /* CSS BARU DARI ANDA - TEMA ABU-ABU/HITAM */
+    * {
+        box-sizing: border-box;
+    }
 
- header {
-     background: #003366;
-     color: #fff;
-     padding: 20px;
-     text-align: center;
- }
+    body {
+        margin: 0;
+        font-family: arial, sans-serif;
+        background: #f5f5f5;
+        color: #333;
+        line-height: 1.5;
+    }
 
- header ul {
-     display: flex;
-     justify-content: center;
-     list-style: none;
-     padding: 0;
-     margin: 6px 12px;
- }
+    header {
+        background: #222222; /* DIUBAH: dari biru ke abu-abu gelap */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: sticky; /* Tetap sticky */
+        top: 0;
+        z-index: 1000;
+    }
 
- header li a {
-     color: #fff;
-     text-decoration: none;
-     padding: 6px 12px;
- }
+    header ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 6px 12px;
+    }
 
- header li a:hover {
-     background-color: #85020d;
-     border-radius: 6px;
-     transition: background-color 0.3s ease;
- }
+    header li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 6px 12px;
+    }
 
- header li a:focus {
-     outline: 2px solid #fff;
-     outline-offset: 2px;
-     border-radius: 6px;
-     background-color: rgba(255, 255, 255, 0.15);
- }
+    header li a:hover {
+        background-color: #555555; /* DIUBAH: dari merah ke abu-abu */
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
 
- header li a:active {
-     background-color: #cc04a1;
-     transform: translateY(1px);
- }
+    header li a:focus {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+    }
 
- #home,
- #about,
- #ipk,
- #contact {
-     background-color: lightgray;
-     border-radius: 30px;
-     padding: 30px;
-     max-width: 700px;
-     margin: 30px auto;
-     box-shadow: 7px 7px 15px black
- }
+    header li a:active {
+        background-color: #777777; /* DIUBAH: dari magenta ke abu-abu */
+        transform: translateY(1px);
+    }
 
- #home h2,
- #about h2,
- #ipk h2,
- #contact h2 {
-     color: #0342ff;
-     border-bottom: 5px solid #0342ff;
-     padding-bottom: 6px;
-     margin-top: 0;
-     margin-bottom: 16px;
-     text-align: center;
-     font-family: sans-serif;
-     font-style: italic;
- }
+    /* Selector section utama dari CSS Anda */
+    #home,
+    #about,
+    #ipk,
+    #contact {
+        background-color: #e0e0e0; /* DIUBAH: lightgray ke hex */
+        border-radius: 30px;
+        padding: 30px;
+        max-width: 700px;
+        margin: 30px auto;
+        box-shadow: 7px 7px 15px black
+    }
 
- #home p {
-     text-align: justify;
- }
+    /* Selector h2 utama dari CSS Anda */
+    #home h2,
+    #about h2,
+    #ipk h2,
+    #contact h2 {
+        color: #333333; /* DIUBAH: dari biru ke hitam/gelap */
+        border-bottom: 5px solid #555555; /* DIUBAH: dari biru ke abu-abu */
+        padding-bottom: 6px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        text-align: center;
+        font-family: sans-serif;
+        font-style: italic;
+    }
 
- #about p,
- #contact label {
-     display: flex;
-     justify-content: flex-start;
-     align-items: baseline;
-     margin: 0;
-     padding: 6px 0;
-     border-bottom: 1px solid black;
-     color: black;
-     font-weight: 500;
-     font-family: sans-serif;
- }
+    #home p {
+        text-align: justify;
+    }
 
- #about strong,
- #contact label>span {
-     min-width: 180px;
-     color: #0342ff;
-     font-weight: 600;
-     text-align: right;
-     padding-right: 16px;
-     flex-shrink: 0;
- }
+    /* Selector dari CSS Anda */
+    #about p,
+    #contact label {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin: 0;
+        padding: 6px 0;
+        border-bottom: 1px solid black;
+        color: black;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
 
- #contact input,
- #contact textarea {
-     flex: 1;
-     border: none;
-     border-radius: 40px;
-     padding: 10px;
-     color: black;
-     font-weight: normal;
-     margin: 0;
-     box-sizing: border-box;
- }
+    #about strong,
+    #contact label>span {
+        min-width: 180px;
+        color: #000000; /* DIUBAH: dari biru ke hitam */
+        font-weight: 600;
+        text-align: right;
+        padding-right: 16px;
+        flex-shrink: 0;
+    }
 
- #contact button {
-     margin-top: 20px;
-     display: inline-block;
-     padding: 10px 24px;
-     font-size: 16px;
-     border-radius: 15px;
-     cursor: pointer;
-     border: none;
-     transition: all 0.3s ease;
-     margin-right: 10px;
- }
+    #contact input,
+    #contact textarea {
+        flex: 1;
+        border: none;
+        border-radius: 40px;
+        padding: 10px;
+        color: black;
+        font-weight: normal;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
- #contact button[type="submit"] {
-     background-color: #0a0efc;
-     color: white;
-     font-weight: 600;
-     box-shadow: 0 2px 3px black;
- }
+    #contact button {
+        margin-top: 20px;
+        display: inline-block;
+        padding: 10px 24px;
+        font-size: 16px;
+        border-radius: 15px;
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s ease;
+        margin-right: 10px;
+    }
 
- #contact button[type="reset"] {
-     background-color: #fb0606;
-     color: white;
-     font-weight: 600;
-     box-shadow: 0 2px 3px black;
- }
+    #contact button[type="submit"] {
+        background-color: #444444; /* DIUBAH: dari biru ke abu-abu gelap */
+        color: white;
+        font-weight: 600;
+        box-shadow: 0 2px 3px black;
+    }
 
- #contact button[type="submit"]:hover {
-     background-color: #0388ee;
-     transform: translateY(1px);
- }
+    #contact button[type="reset"] {
+        background-color: #888888; /* DIUBAH: dari merah ke abu-abu */
+        color: white;
+        font-weight: 600;
+        box-shadow: 0 2px 3px black;
+    }
 
- #contact button[type="reset"]:hover {
-     background-color: #ff3902;
-     transform: translatey(1px);
- }
+    #contact button[type="submit"]:hover {
+        background-color: #666666; /* DIUBAH: dari biru ke abu-abu */
+        transform: translateY(1px);
+    }
 
- .menu-toggle {
-     display: none;
-     background: none;
-     border: none;
-     color: #fff;
-     font-size: 28px;
-     cursor: pointer;
- }
+    #contact button[type="reset"]:hover {
+        background-color: #aaaaaa; /* DIUBAH: dari merah ke abu-abu */
+        transform: translatey(1px);
+    }
 
- @media (max-width: 600px) {
-     .menu-toggle {
-         display: block;
-         position: absolute;
-         left: 16px;
-         top: 8px;
-     }
+    /* --- STYLE TAMBAHAN UNTUK CARD IPK (Dari file sebelumnya) --- */
+    /* Ini ditambahkan karena tidak ada di CSS baru Anda */
+    .matkul-card {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
 
-     nav {
-         display: none;
-         flex-direction: column;
-         background: #003366;
-         width: 100%;
-         padding: 5px 0;
-     }
+    .matkul-card h3 {
+        color: #333333; /* DIUBAH: dari biru ke hitam/gelap */
+        margin-top: 0;
+        text-align: center;
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 10px;
+    }
 
-     nav.active {
-         display: flex;
-     }
+    /* Menyesuaikan style <p> di dalam .matkul-card */
+    .matkul-card p {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin: 0;
+        padding: 6px 0;
+        border-bottom: 1px solid black;
+        color: black;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
 
-     header {
-         padding: 16px;
-         position: sticky;
-         top: 0;
-         z-index: 1000;
-     }
+    .matkul-card p strong {
+        min-width: 180px;
+        color: #000000; /* DIUBAH: dari biru ke hitam */
+        font-weight: 600;
+        text-align: right;
+        padding-right: 16px;
+        flex-shrink: 0;
+    }
+    
+    .status-pass {
+        color: #333333; /* DIUBAH: dari hijau ke abu-abu gelap */
+        font-weight: bold;
+    }
 
-     header h1 {
-         margin: 0 0 8px;
-         font-size: 20px;
-         line-height: 1.2;
-     }
+    .status-fail {
+        color: #777777; /* DIUBAH: dari merah ke abu-abu */
+        font-weight: bold;
+    }
 
-     header ul {
-         flex-direction: column;
-         align-items: strecth;
-         gap: 8px;
-         margin: 8px 0 0;
-     }
+    .summary-card {
+        background-color: #e9ecef;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
 
-     header li a {
-         display: block;
-         padding: 12px 14px;
-         border: 1px solid rgba(255, 255, 255, .35);
-         backdrop-filter: saturate(120%);
-         background: rgba(255, 255, 255, .08);
-     }
+    .summary-card h3 {
+        color: #333;
+        font-weight: 500;
+        margin: 8px 0;
+    }
+    .summary-card h2 {
+        color: #333333; /* DIUBAH: dari biru ke hitam/gelap */
+        font-family: sans-serif;
+        font-style: italic;
+        margin: 10px 0 0 0;
+        font-size: 2.2em;
+    }
+    /* --- AKHIR STYLE TAMBAHAN --- */
 
-     #about p,
-     #contact label {
-         flex-direction: column;
-         align-items: flex-start;
-     }
 
-     #about strong,
-     #contact label>span {
-         text-align: left;
-         padding-right: 0;
-         margin-bottom: 2px;
-     }
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 28px;
+        cursor: pointer;
+    }
 
-     #contact input,
-     #contact textarea,
-     #contact button {
-         width: 100%;
-     }
- }
+    @media (max-width: 600px) {
+        .menu-toggle {
+            display: block;
+            position: absolute;
+            left: 16px;
+            top: 15px; /* Disesuaikan */
+        }
 
- footer {
-     background: #222;
-     color: #aaa;
-     text-align: center;
-     padding: 10px;
- }
+        nav {
+            display: none;
+            flex-direction: column;
+            background: #222222; /* DIUBAH: Sesuai header */
+            width: 100%;
+            padding: 5px 0;
+        }
+
+        nav.active {
+            display: flex;
+        }
+
+        header {
+            padding: 16px;
+            /* position: sticky; sudah di atas */
+            /* top: 0; sudah di atas */
+            /* z-index: 1000; sudah di atas */
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 20px;
+            line-height: 1.2;
+            padding-top: 30px; /* Beri ruang untuk tombol menu */
+        }
+
+        header ul {
+            flex-direction: column;
+            align-items: stretch; /* Typo 'strecth' diperbaiki */
+            gap: 8px;
+            margin: 8px 0 0;
+        }
+
+        header li a {
+            display: block;
+            padding: 12px 14px;
+            border: 1px solid rgba(255, 255, 255, .35);
+            backdrop-filter: saturate(120%);
+            background: rgba(255, 255, 255, .08);
+        }
+
+        /* Selector dari CSS Anda */
+        #about p,
+        #contact label {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        #about strong,
+        #contact label>span {
+            text-align: left;
+            padding-right: 0;
+            margin-bottom: 2px;
+            min-width: 0; /* Hapus min-width di mobile */
+        }
+
+        #contact input,
+        #contact textarea,
+        #contact button {
+            width: 100%;
+        }
+
+        /* --- PENYESUAIAN MOBILE TAMBAHAN (Dari file sebelumnya) --- */
+        #home, #about, #ipk, #contact {
+            padding: 15px;
+            margin: 15px;
+        }
+
+        .matkul-card p {
+            flex-direction: column;
+            align-items: flex-start;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .matkul-card p strong {
+            text-align: left;
+            padding-right: 0;
+            margin-bottom: 2px;
+            min-width: 0; /* Hapus min-width di mobile */
+        }
+        /* --- AKHIR PENYESUAIAN MOBILE --- */
+    }
+
+    footer {
+        background: #222;
+        color: #aaa;
+        text-align: center;
+        padding: 20px; /* Sedikit padding */
+        margin-top: 30px;
+    }
