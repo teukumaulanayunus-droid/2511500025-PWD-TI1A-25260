@@ -11,4 +11,5 @@ saya mempelajari:<br>
 <li>ngisi get_proses.php</li>
 <li>nambahin session_start</li>
 <li>redirect dari get_proses.php ke get.php</li>
+<li>copas get php dan get proses php menjadi post proses php dan post php</li>
 </ol>
