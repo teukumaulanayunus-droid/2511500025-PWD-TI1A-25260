@@ -9,3 +9,4 @@ saya mempelajari:<br>
 <li>copy file dari elearning pak yo ke latihan pertemuan-07</li>
 <li>copy dan rename index php menjadi get php terus buat file baru get proses php untuk menjalankan nya</li>
 <li>ngisi get_proses.php</li>
+<li>nambahin session_start</li>
