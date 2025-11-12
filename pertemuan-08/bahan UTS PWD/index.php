@@ -52,31 +52,56 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <secction id="Pendaftaran Profil Pengunjung">
-       <h2>Pendaftaran Pengunjung</h2>
-      <form action="proses.php" method="POST">
+    <section id="Pendaftaran Profil Pengunjung">
+  <h2>Pendaftaran Profil</h2>
+  <form action="proses.php" method="POST">
 
-        <label for="txtNama"><span>Nama:</span>
-          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-        </label>
+    <label for="txtNIM"><span>NIM:</span>
+      <input type="text" id="txtNIM" name="txtNIM" placeholder="Masukkan NIM Anda" required>
+    </label>
 
-        <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-        </label>
+    <label for="txtNamaLengkap"><span>Nama Lengkap:</span>
+      <input type="text" id="txtNamaLengkap" name="txtNamaLengkap" placeholder="Masukkan Nama Lengkap Anda" required>
+    </label>
 
-        <label for="txtPesan"><span>Pesan Anda:</span>
-          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
-          <small id="charCount">0/200 karakter</small>
-        </label>
+    <label for="txtTempatLahir"><span>Tempat Lahir:</span>
+      <input type="text" id="txtTempatLahir" name="txtTempatLahir" placeholder="Masukkan Tempat Lahir Anda" required>
+    </label>
 
+    <label for="txtTanggalLahir"><span>Tanggal Lahir:</span>
+      <input type="date" id="txtTanggalLahir" name="txtTanggalLahir" required>
+    </label>
 
+    <label for="txtHobi"><span>Hobi:</span>
+      <input type="text" id="txtHobi" name="txtHobi" placeholder="Masukkan Hobi Anda" required>
+    </label>
+
+    <label for="txtPasangan"><span>Pasangan:</span>
+      <input type="text" id="txtPasangan" name="txtPasangan" placeholder="Masukkan Nama Pasangan" required>
+    </label>
+
+    <label for="txtPekerjaan"><span>Pekerjaan:</span>
+      <input type="text" id="txtPekerjaan" name="txtPekerjaan" placeholder="Masukkan Pekerjaan Anda" required>
+    </label>
+
+    <label for="txtNamaOrangTua"><span>Nama Orang Tua:</span>
+      <input type="text" id="txtNamaOrangTua" name="txtNamaOrangTua" placeholder="Masukkan Nama Orang Tua" required>
+    </label>
+
+    <label for="txtNamaKakak"><span>Nama Kakak:</span>
+      <input type="text" id="txtNamaKakak" name="txtNamaKakak" placeholder="Masukkan Nama Kakak" required>
+    </label>
+
+    <label for="txtNamaAdik"><span>Nama Adik:</span>
+      <input type="text" id="txtNamaAdik" name="txtNamaAdik" placeholder="Masukkan Nama Adik" required>
+    </label>
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
 
       <?php if (!empty($sesnama)): ?>
         <br><hr>
-        <h2>Yang Mendaftar</h2>
+        <h2>Yang menghubungi kami</h2>
         <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
         <p><strong>Email :</strong> <?php echo $sesemail ?></p>
         <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
