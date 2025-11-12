@@ -111,7 +111,9 @@ header li a:active {
 }
 
 #contact input,
-#contact textarea {
+#contact textarea,
+ #PendaftarProfilPengunjung input,
+#PendaftaranProfilPengunjung textarea{
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -122,7 +124,8 @@ header li a:active {
   box-sizing: border-box;
 }
 
-#contact button {
+#contact button,
+#ProfilPendaftaranPengunjung {
   margin-top: 10px;
   display: inline-block;
   padding: 10px 24px;
@@ -134,25 +137,29 @@ header li a:active {
   margin-right: 8px;
 }
 
-#contact button[type="submit"] {
+#contact button[type="submit"],
+#PendaftaranProfilPengunjung button[type="submit"] {
   background-color: #003366;
   color: #fff;
   font-weight: 600;
 }
 
-#contact button[type="reset"] {
+#contact button[type="submit"],
+#PendaftaranProfilPengunjung button[type="reset"] {
   background-color: #b4b4b4;
   color: #272727;
   font-weight: 500;
 }
 
-#contact button[type="submit"]:hover {
+#contact button[type="submit"]:hover,
+#PendaftaranProfilPengunjung button[type="submit"]:hover {
   background-color: #0379ee;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-#contact button[type="reset"]:hover {
+#contact button[type="reset"]:hover, 
+#pendaftaranProfilPengunjung button[type="reset"]:hover{
   background-color: #cccccc;
   transform: translateY(-1px);
 }
@@ -222,21 +229,23 @@ footer {
   }
 
   #about p,
-  #contact label {
+  #contact label,
+  #PendaftaranProfilPengunjung{
     flex-direction: column;
     align-items: flex-start;
   }
 
   #about strong,
-  #contact label>span {
+  #contact label>span,
+  #PendaftaranProfilPengunjung {
     text-align: left;
     padding-right: 0;
     margin-bottom: 2px;
   }
 
-  #contact input,
-  #contact textarea,
-  #contact button {
+  #contact,#PendaftaranProfilPengunjung input,
+  #contact,#PendaftaranProfilPengunjung textarea,
+  #contact,#PendaftaranProfilPengunjung button {
     width: 100%;
   }
 }
