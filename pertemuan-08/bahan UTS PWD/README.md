@@ -12,5 +12,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambahkan section pendaftaran profil pengunjung</li>
   <li>menambahkan isi section.id pendataran profil pengunjung</li>
   <li>menambahkan style pada section.id pendaftaran profil pengunjung</li>
+  <li>menambah kan style section.id 
 
 </ol>
