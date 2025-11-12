@@ -15,7 +15,22 @@ $sespesan = "";
 if (isset($_SESSION["sespesan"])):
   $sespesan = $_SESSION["sespesan"];
 endif;
+$sesnama = $_SESSION["sesnama"] ?? "";
+$sesemail = $_SESSION["sesemail"] ?? "";
+$sespesan = $_SESSION["sespesan"] ?? "";
+
+$sesnim = $_SESSION['about_nim'] ?? '0344300002';
+$sesnama = $_SESSION['about_nama'] ?? 'Al\'kautar Benyamin';
+$sestempat = $_SESSION['about_tempat'] ?? 'Jebus';
+$sestanggal = $_SESSION['about_tanggal'] ?? '1 Januari 2000';
+$seshobi = $_SESSION['about_hobi'] ?? 'Memasak, coding, dan bermain musik &#127926;';
+$sespasangan = $_SESSION['about_pasangan'] ?? 'Belum ada &hearts;';
+$sespekerjaan = $_SESSION['about_pekerjaan'] ?? 'Dosen di ISB Atma Luhur &copy; 2025';
+$sesortu = $_SESSION['about_ortu'] ?? 'Bapak Setiawan dan Ibu Maria';
+$seskakak = $_SESSION['about_kakak'] ?? 'Antonius Setiawan';
+$sesadik = $_SESSION['about_adik'] ?? 'Belum ada'; 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -101,14 +116,7 @@ endif;
         <button type="reset">Batal</button>
       </form>
 
-      <?php if (!empty($sesnama)): ?>
-        <br><hr>
-        <h2>Yang menghubungi kami</h2>
-        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
-        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
-        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
-      <?php endif; ?>
-
+      
 
 
     </section>
@@ -132,14 +140,14 @@ endif;
         echo $Nama;
         ?> &#128526;
       </p>
-      <p><strong>Tempat Lahir:</strong> <?php echo $tempat; ?></p>
+      <p><strong>Tempat Lahir:</strong>Jebus</p>
       <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
       <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
       <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
       <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
       <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
       <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-      <p><strong>Nama Adik:</strong> <?php echo $sespesan ?></p>
+      <p><strong>Nama Adik:</strong>-</p>
     </section>
 
     <section id="contact">
