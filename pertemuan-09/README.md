@@ -1,2 +1,16 @@
-# 2511500025-PWD-TI1A-25260
-Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman Web Dasar Kelompok TI1A Tahun Ajaran 2025/2026 Semester Gasal
+# pertemuan-09
+
+<ol>
+  <li>Hasil UTS untuk bahan pertemuan-09</li>
+  <li>Membuat form untuk biodata sederhana mahasiswa</li>
+  <li>styling section biodata</li>
+  <li>styling section biodata beres</li>
+  <li>tangkap post dan buat session untuk form biodata</li>
+  <li>session form biodata beres</li>
+  <li>tangkap session dari file proses</li>
+  <li>tangkap session dari file proses selesai</li>
+  <li>echo session ke nilai label section contact</li>
+  <li>echo session ke nilai label section contact selesai</li>
+  <li>mengedit file proses pada baris 10-19</li>
+  <li>
+</ol>
