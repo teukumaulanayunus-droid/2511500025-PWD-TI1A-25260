@@ -5,4 +5,5 @@ Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman
 <li>menambahkan kode pada koneksi php</li>
 <li>membuat database</li>
 <li>menambahkan tabel pada php my admin</li>
+<li>menambahkan file read php</li>
 </ol>
