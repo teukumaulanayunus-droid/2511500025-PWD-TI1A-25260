@@ -6,4 +6,5 @@ Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman
 <li>membuat database</li>
 <li>menambahkan tabel pada php my admin</li>
 <li>menambahkan file read php</li>
+<li>menambahkan data di dalam tabel tamu</li>
 </ol>
