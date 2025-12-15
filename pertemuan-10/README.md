@@ -7,4 +7,7 @@ Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman
 <li>menambahkan tabel pada php my admin</li>
 <li>menambahkan file read php</li>
 <li>menambahkan data di dalam tabel tamu</li>
+<li>menambahkan file read_inc.php</li>
+<li>menghapus line 131-141</li>
+
 </ol>
