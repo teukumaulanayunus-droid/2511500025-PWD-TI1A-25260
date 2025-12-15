@@ -3,4 +3,5 @@ Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman
 <ol>
 <li>menambahkan koneksi php</li>
 <li>menambahkan kode pada koneksi php</li>
+<li>membuat database</li>
 </ol>
