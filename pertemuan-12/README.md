@@ -6,7 +6,7 @@ Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman
 <li>menambahkan penampil flash sukses dan error</li>
 <li>menambahkan file baru edit.php</li>
 <li>menambahkan file baru proses_update.php</li>
-
+<li>mencoba hasil dari pengerjaan pada hari ini</li>
 
 
 
