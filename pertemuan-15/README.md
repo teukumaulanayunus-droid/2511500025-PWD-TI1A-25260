@@ -5,5 +5,5 @@ NIM:2511500025
 saya meengerjakan try out
 <ol>
 <li>mengekstrak file yang diberikan pak yo dan taro di file pertemuan 15</li>
-
+<li>menambahkan tabel baru di php my admin</li>
 </ol>
