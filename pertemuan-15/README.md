@@ -12,4 +12,5 @@ PRG, dan insert ke tabel baru sesuai nomor<li>
 <li>membuat file baru delete_mahasiswa_amik</li>
 <li>membuat file baru proses_mahasiswa_amik</li>
 <li>membuat file baru read_mahasiswa_amik</li>
+<li>membuat file baru update_mahasiswa_amik</li>
 </ol>
