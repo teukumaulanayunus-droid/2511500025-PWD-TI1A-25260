@@ -9,5 +9,5 @@ saya meengerjakan try out
 <li>validasi, sanitasi, konsep 
 PRG, dan insert ke tabel baru sesuai nomor<li>
 <li>membuat file baru edit_mahasiswa_amik<li>
-
+<li>membuat file baru delete_mahasiswa_amik</li>
 </ol>
