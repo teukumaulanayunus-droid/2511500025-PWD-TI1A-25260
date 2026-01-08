@@ -8,4 +8,6 @@ saya meengerjakan try out
 <li>menambahkan tabel baru di php my admin</li>
 <li>validasi, sanitasi, konsep 
 PRG, dan insert ke tabel baru sesuai nomor<li>
+<li>membuat file baru edit_mahasiswa_amik<li>
+
 </ol>
